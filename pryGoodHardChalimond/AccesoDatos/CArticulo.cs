@@ -8,5 +8,12 @@ namespace pryGoodHardChalimond.AccesoDatos
 {
     class CArticulo
     {
+
+        public int IdArticulo { get; set; }
+        public string Nombre { get; set; }
+        public double Precio { get; set; }
+        public string idCateogria { get; set; }
+        public int Stock{ get; set; }
+
     }
 }

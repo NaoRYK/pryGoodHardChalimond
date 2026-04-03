@@ -1,5 +1,5 @@
 1;Procesadores
-2;Discos Rígidos
+2;Discos Rigidos
 3;Gabinetes
 4;Fuentes
 5;DVD

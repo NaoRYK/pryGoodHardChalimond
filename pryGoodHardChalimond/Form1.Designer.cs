@@ -41,6 +41,7 @@
             this.btnMigration.TabIndex = 0;
             this.btnMigration.Text = "Iniciar migración";
             this.btnMigration.UseVisualStyleBackColor = true;
+            this.btnMigration.Click += new System.EventHandler(this.btnMigration_Click);
             // 
             // lblInfo
             // 
