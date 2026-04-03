@@ -1,0 +1,8 @@
+1;Procesadores
+2;Discos Rígidos
+3;Gabinetes
+4;Fuentes
+5;DVD
+6;Teclados
+7;Memorias RAM
+8;Placas de Video
