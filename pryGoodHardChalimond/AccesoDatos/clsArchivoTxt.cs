@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -8,7 +8,7 @@ using System.Windows.Forms; // Necesario para Application.StartupPath
 
 namespace pryGoodHardChalimond.AccesoDatos
 {
-    class CArchivoTxt
+    class clsArchivoTxt
     { /// Lee un archivo TXT ubicado en la carpeta 'Datos' del proyecto.
       /// Cada línea se separa por ';' y se almacena como un array de campos.
       /// <param name="nombreArchivo">Nombre del archivo TXT (ej: "productos.txt")</param>
@@ -16,7 +16,7 @@ namespace pryGoodHardChalimond.AccesoDatos
         public List<string[]> LeerArchivoTxt(string nombreArchivo)
         {
             // Construye la ruta completa al archivo dentro de la carpeta 'Datos'
-            string rutaCarpetaDatos = Path.Combine(Application.StartupPath, "Datos");
+            string rutaCarpetaDatos = Path.Combine(Application.StartupPath, "..", "..", "Datos");
             string rutaArchivo = Path.Combine(rutaCarpetaDatos, nombreArchivo);
 
             var registros = new List<string[]>();

@@ -12,3 +12,5 @@
 111;Corsair 16GB DDR4;7;80;18
 112;Nvidia GTX 1660;8;300;5
 113;AMD RX 6600;8;350;4
+114;Monitor LG 24";8;200;7
+115;La compu de agustina";8;250;5

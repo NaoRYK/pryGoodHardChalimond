@@ -1,4 +1,4 @@
-﻿namespace pryGoodHardChalimond
+namespace pryGoodHardChalimond
 {
     partial class frmMigracion
     {
@@ -71,7 +71,7 @@
             this.Controls.Add(this.btnMigration);
             this.Name = "frmMigracion";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "frmMigracion";
+            this.Text = "Migración de Datos";
             this.ResumeLayout(false);
             this.PerformLayout();
 
